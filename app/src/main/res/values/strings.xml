@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RecycleReduceRecipe</string>
+    <string name="delete">Delete</string>
+    <string name="food_goes_here">Food goes here...</string>
+    <string name="rcpetxt">\"Recipe Text \"</string>
+    <string name="ingtxt">\"Ingredient Text \"</string>
+    <string name="go_back">Go Back</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="description">description</string>
+    <string name="theseare">These are the ingredients...</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+</resources>

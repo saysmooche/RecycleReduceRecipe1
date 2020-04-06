@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ing_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="2dp"
+    card_view:contentPadding="10dp"
+    tools:context=".activities.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="389dp"
+        android:layout_height="282dp">
+
+        <TextView
+            android:id="@+id/ingtextView"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/food_goes_here"
+            android:textSize="30sp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="1.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="381dp"
+        android:layout_height="514dp"
+        android:gravity="center_horizontal|fill|fill_horizontal|center_vertical|end"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/foodimage"
+            android:layout_width="wrap_content"
+            android:layout_height="204dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            card_view:srcCompat="@drawable/burrito" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
